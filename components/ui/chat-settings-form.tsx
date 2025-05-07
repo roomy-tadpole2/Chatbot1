@@ -55,7 +55,7 @@ export const ChatSettingsForm: FC<ChatSettingsFormProps> = ({
 
         <TextareaAutosize
           className="bg-background border-input border-2"
-          placeholder="You are a helpful AI assistant."
+          placeholder="You are a AI assistant focus on PIEZO channels."
           onValueChange={prompt => {
             onChangeChatSettings({ ...chatSettings, prompt })
           }}
